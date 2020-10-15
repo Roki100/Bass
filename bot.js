@@ -1,4 +1,4 @@
-var token = "Mri1eaKk24tvc3gpKzh9oFWdOmqxvUaj1zb0wbxkUf1uU1rP7";
+var token = "MzEyMDczODYzNjMyNjUwMjYy.C_Vw9w.KFvNB4CflJjQlH_nLeAjsSKiGyw";
 
 //ThIs Is WhErE We StArT ThE BoT
 let Bot = require('discord.js');
