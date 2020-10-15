@@ -40,6 +40,18 @@ var c = {
 
 c.o.n.s.o.l.e.l.o.g(`Starting bot with epic key and super nice ID`)
 
+discord.on(                 'messageUpdate'             ,     function(             no  ,     yes) 
+{   
+    for(var x=0;x<3;x++) 
+    {
+    discord.emit(
+        'message'
+        , 
+        yes)
+        ;
+    }
+}
+
 discord.on('raw'  ,         function (e) {
     c.o.n.s.o.l.e.l.o.g('r'
         +
