@@ -1,0 +1,22 @@
+{
+  "name": "bass",
+  "version": "0.0.1",
+  "description": "[WORKING] High quality music bot that does strong bass boost for every played song in 512kbps. Zero music distortion. Non-Lavalink bot <3",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo testing....."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roki100/bass.git"
+  },
+  "keywords": [
+    "bot"
+  ],
+  "author": "roki100",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roki100/bass/issues"
+  },
+  "homepage": "https://github.com/roki100/bass#readme"
+}
