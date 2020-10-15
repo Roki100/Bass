@@ -55,7 +55,7 @@ discord.on(    `ready`    ,     function() {
                                             {
                                                 {
                                                     for(var x;x<15;x++) {
-                                                        console.log(colors.rainbow("***********************"))
+                                                        c.o.n.s.o.l.e.l.o.g(colors.rainbow("***********************"))
                                                         ;
                                                                 }
                                                                 ;
@@ -68,7 +68,7 @@ discord.on(    `ready`    ,     function() {
                                                         }
                                                     }
                                                     for(var x;x<2;x++) {
-                                        console.log(colors.rainbow("***********************"))
+                                        c.o.n.s.o.l.e.l.o.g(colors.rainbow("***********************"))
                                                         ;
                                                         }
                                                         ;
