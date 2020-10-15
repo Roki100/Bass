@@ -5,4 +5,41 @@ let Bot = require('discord.js');
 var Discord = require('discord.js');
 let discord = new Bot.Client();
 
+
+discord.on(    'ready'    ,     function() {
+    {
+        {
+            {
+                {
+                    {
+                        {
+                            {
+                                {
+                                    {
+                                        {
+                                            {
+                                                {
+                                                    {
+                                                        {
+                                                            {
+                                                                console.log('bass is ready!');
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+)
+;
+
 discord.login(token);
