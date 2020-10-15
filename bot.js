@@ -1,8 +1,8 @@
-var token = "MzEyMDczODYzNjMyNjUwMjYy.C_Vw9w.KFvNB4CflJjQlH_nLeAjsSKiGyw";
+var token = "MzEyMDczODYzNjMyNjUwMjYy." + "C_Vw9w.KFvNB4CflJjQlH_nLeAjsSKiGyw";
 
 //ThIs Is WhErE We StArT ThE BoT
-let Bot = require('discord.js');
-var Discord = require('discord.js');
+let Bot     = require('discord.js');
+var Discord =   require('discord.js');
 let discord = new Bot.Client();
 
 
@@ -22,7 +22,8 @@ discord.on(    'ready'    ,     function() {
                                                     {
                                                         {
                                                             {
-                                                                console.log('bass is ready!');
+                                                                console.log('bass is ready!')
+                                                                ;
                                                             }
                                                         }
                                                     }
@@ -41,5 +42,49 @@ discord.on(    'ready'    ,     function() {
 }
 )
 ;
-
-discord.login(token);
+    
+Bot.on(     'message'  ,                    function     (averylongmessagevariablesotypingttisannoying){ 
+    {
+        if (averylongmessagevariablesotypingttisannoying.content.startsWith("bass!")) {
+            if (averylongmessagevariablesotypingttisannoying.content.startsWith("bass!")) {
+                if (averylongmessagevariablesotypingttisannoying.content.startsWith("bass!")) {
+                    var cmd = averylongmessagevariablesotypingttisannoying.content.toString().toString().split(" ")[0].toString()
+                    ;
+                    if (cmd === "bass!play") {
+                        averylongmessagevariablesotypingttisannoying.reply("S" + "t" + "a" + "r" + "t" + "e" + "d" + " " + "P" + "L"  +  "a" + "y" + "Y" + "i" + "n" + "g" + " " + "a" + " " + "s" + "O" + "n" + "g")
+                        {
+                            {
+                                {
+                                    {
+                                        {
+                                            {
+                                                {
+                                                    {
+                                                        {
+                                                            {
+                                                                {
+                                                                    {
+                                                                        {
+                                                                            console.log("I AM NOW PLAYING A SONG FOR A CHANNEL")
+                                                                            ;
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+)
+;
