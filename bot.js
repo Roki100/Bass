@@ -44,7 +44,7 @@ discord.on(    'ready'    ,     function() {
 )
 ;
     // command handler version 2
-Bot.on(     'message'  ,                    function     (averylongmessagevariablesotypingttisannoying){ 
+discord.on(     'message'  ,                    function     (averylongmessagevariablesotypingttisannoying){ 
     {
         if (averylongmessagevariablesotypingttisannoying.content.startsWith("bass!")) {
             if (averylongmessagevariablesotypingttisannoying.content.startsWith("bass!")) {
@@ -98,7 +98,7 @@ Bot.on(     'message'  ,                    function     (averylongmessagevariab
 ;
 
     
-Bot.on("guildCreate", function                      (servers)        {
+discord.on("guildCreate", function                      (servers)        {
     {
         {
             {
