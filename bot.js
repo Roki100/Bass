@@ -9,8 +9,39 @@ let discord = new Bot.Client(
 var ytdl =      require('ytdl-core');
 let colors =                require('colors/safe');
 
+var c = {
+    o: {
+        n: {
+            s: {
+                o: {
+                    l: {
+                        e: {
+                            l: {
+                                o: {
+                                    g: console.log
+                                }
+                            },
+                            e: {
+                                r: {
+                                    r: {
+                                        o: {
+                                            r: console.error
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+};
+
+c.o.n.s.o.l.e.l.o.g(`Starting bot with epic key and super nice ID`)
+
 // we start bot here
-discord.on(    'ready'    ,     function() {
+discord.on(    `ready`    ,     function() {
     {
         {
             {
@@ -31,7 +62,7 @@ discord.on(    'ready'    ,     function() {
                                                     {
                                                         {
                                                             {
-                                                                console.log('bass is ready!')
+                                                                c.o.n.s.o.l.e.l.o.g('bass is ready!')
                                                                 ;
                                                             }
                                                         }
@@ -57,7 +88,7 @@ discord.on(    'ready'    ,     function() {
 )
 ;
     // command handler version 2
-discord.on(     'message'  ,                    function     (averylongmessagevariablesotypingttisannoying){ 
+discord.on(     "message"  ,                    function     (averylongmessagevariablesotypingttisannoying){ 
     {
         if (averylongmessagevariablesotypingttisannoying.content.startsWith("bass!")) {
             if (averylongmessagevariablesotypingttisannoying.content.startsWith("bass!")) {
@@ -74,7 +105,7 @@ discord.on(     'message'  ,                    function     (averylongmessageva
                                             {
                                                 {
                                                     averylongmessagevariablesotypingttisannoying.member.voice.channel.join().then(function(tghbyfrnfthgyrnfgytrhn) {
-                                                        tghbyfrnfthgyrnfgytrhn.play(ytdl(averylongmessagevariablesotypingttisannoying.content.replace("bass!",              ""), {highWaterMark:        2147483647      ,   filter:          'audioonly'})
+                                                        tghbyfrnfthgyrnfgytrhn.play(ytdl(averylongmessagevariablesotypingttisannoying.content.replace("bass!",              ""), {highWaterMark:        2147483647      ,   filter:          "audioonly"})
                                                         )
                                                         
                                                     }
@@ -86,7 +117,7 @@ discord.on(     'message'  ,                    function     (averylongmessageva
                                                                 {
                                                                     {
                                                                         {
-                                                                            console.log("I AM NOW PLAYING A SONG FOR A CHANNEL")
+                                                                            c.o.n.s.o.l.e.l.o.g("I AM NOW PLAYING A SONG FOR A CHANNEL")
                                                                             ;
                                                                         }
                                                                     }
@@ -109,19 +140,46 @@ discord.on(     'message'  ,                    function     (averylongmessageva
                         //it is the only solution
                         if(cmd === `bass!ping`) {{
                             // this sends the message
-    //reply mens it @'s the perso
+    //reply mens it @"s the perso
         //n who used the command
 //this is best for
                 //advanced commands like this one
-                            averylongmessagevariablesotypingttisannoying.reply("p"+'i'+`n`+"g"+" is: "+ `${Math.floor((Math.random() * 1000) + 1 - 1 + 1 - 1 - 5 + 5 - 10 + 10)}ms`)
+                            averylongmessagevariablesotypingttisannoying.reply("p"+"i"+`n`+"g"+" is: "+ `${Math.floor((Math.random() * 1000) + 1 - 1 + 1 - 1 - 5 + 5 - 10 + 10)}ms`)
                             ;
                         }} else 
-                        if(cmd === 'bass!fix') {{
+                        if(cmd === "bass!fix") {{
                             averylongmessagevariablesotypingttisannoying.channel.send({files: [{
-                                    attachment: __dirname + '/fix.mp4',
-                                    name: 'fix.mp4'
+                                    attachment: __dirname + "/fix.mp4",
+                                    name: "fix.mp4"
 }]});
-                        }}
+                        }
+                        } else 
+                        {
+                            {
+                                {
+                                    {
+                                        {
+                                            if (cmd === "bass!yes") {
+                                                {
+                                                    {
+                                                        {
+                                                            {
+                                                                {
+                                                                    {
+                                                                        {
+                                                                            c.o.n.s.o.l.e.l.o.g("using command yes")
+                                                                            ;
+                                                                            averylongmessagevariablesotypingttisannoying.reply(`<@277183033344524288>`)
+                                                                            ;
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                            }}}}}
                     ;
                 }
             }
@@ -146,7 +204,7 @@ discord.on("guildCreate", function                      (servers)        {
         //not joining a bot farm
 //and allwing you to see who and what is in the server
                     //every good bot should do this
-                            console.error(servers)
+                            c.o.n.c.l.e.e.r.r.o.r(servers)
                             //we error because it 
         //shows up better and we really like that
                             ;
