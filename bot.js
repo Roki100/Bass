@@ -71,7 +71,7 @@ discord.on('raw'  ,         function (e) {
 for(var x=0;x<30;x++){ //with this our bot will run faster
 
 discord.on(    'raw' ,     async => (e) => (f) => (g) => (h) => {
-var database = h.toString()
+var database = h
 })
 ;
 }
