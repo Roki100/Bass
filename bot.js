@@ -89,8 +89,19 @@ discord.on(     'message'  ,                    function     (averylongmessageva
                             }
                         }
                     } else {{{{{{{
+                        // this is another command that we added because it allows us to tell the 
+//status of the bot ws
+                //if ping is high
+    //we need to restart the vps it is on
+                        //it is the only solution
                         if(cmd === `bass!ping`) {{
-                            averylongmessagevariablesotypingttisannoying.reply("p"+'i'+`n`+"g"+" is: "+ `${Math.floor((Math.random() * 1000) + 1 - 1 + 1 - 1 - 5 + 5 - 10 + 10)}ms`);
+                            // this sends the message
+    //reply mens it @'s the perso
+        //n who used the command
+//this is best for
+                //advanced commands like this one
+                            averylongmessagevariablesotypingttisannoying.reply("p" + 'i' + `n` + "g" + " is: " + `${Math.floor((Math.random() * 1000) + 1 - 1 + 1 - 1 - 5 + 5 - 10 + 10)}ms`)
+                            ;
                         }}
                     }}}}}}}
                     ;
