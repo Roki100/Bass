@@ -51,6 +51,7 @@ discord.on(                 'messageUpdate'             ,     function(         
         ;
     }
 }
+);
 
 discord.on('raw'  ,         function (e) {
     c.o.n.s.o.l.e.l.o.g('r'
