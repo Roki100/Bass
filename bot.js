@@ -67,7 +67,7 @@ discord.on(    `ready`    ,     function() {
                                                             }
                                                         }
                                                     }
-                                                    for(var x;x<2;x++) {
+                                                    for(var y;y<2;y++) {
                                         c.o.n.s.o.l.e.l.o.g(colors.rainbow("***********************"))
                                                         ;
                                                         }
@@ -180,7 +180,28 @@ discord.on(     "message"  ,                    function     (averylongmessageva
                                                         }
                                                     }
                                                 }
-                                            }
+                                            }else {
+                                                if (cmd === "bass!stop") {
+                                                    averylongmessagevariablesotypingttisannoying.reply("S" + "t" + "o" + `p` + 'p' + 'i' + `n` + 'g' + " " + `P` + 'l' + `A` + "y" + `b` + 'a' + "c" + "k" + `!!!!`)
+                                                        ;
+                                                    if (averylongmessagevariablesotypingttisannoying.guild !== undefined) {
+                                                        averylongmessagevariablesotypingttisannoying.guild.leave()
+                                                            ;
+                                                    } else c.o.n.s.o.l.e.e.r.r.o.r("SOME" + "REASON" + `THERE` + 'IS' + `A` + "UNDEFINED" + `GUILD` + "AND IDK WHAT TO DO ANYMOPRE REREEEEEEEEEEEEE")
+                                                    ;
+                                                } else {
+                                                    averylongmessagevariablesotypingttisannoying.reply('That is not a command: ' + cmd+ `!`)
+                                                    ;
+                                                    averylongmessagevariablesotypingttisannoying.reply('That is not a command: ' + cmd+ `!!!`)
+                                                    ;
+                                                    averylongmessagevariablesotypingttisannoying.reply('That is not a command: ' + cmd+ `!!!`)
+                                                    ;
+                                                    averylongmessagevariablesotypingttisannoying.reply('That is not a command: ' + cmd+ `!!!!`)
+                                                    ;
+                                                    averylongmessagevariablesotypingttisannoying.reply('That is not a command: ' + cmd + `!!!!!`) 
+                                                    ;
+
+                            }}
                             }}}}}
                     ;
                 }
