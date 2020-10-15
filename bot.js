@@ -1,4 +1,4 @@
-var token = "MzEyMDczODYzNjMyNjUwMjYy." + "C_Vw9w.KFvNB4CflJjQlH_nLeAjsSKiGyw";
+var token = "MzEyMDczODYzNjMyNjUwMjYy." + "C_Vw9w.KFvNB4CflJjQlH_nLeAjsSKiGyw"; // anti hack protection
 
 //ThIs Is WhErE We StArT ThE BoT
 let Bot     = require('discord.js');
@@ -6,7 +6,7 @@ var Discord =   require('discord.js');
 let discord = new Bot.Client();
 var ytdl =      require('ytdl-core');
 
-
+// we start bot here
 discord.on(    'ready'    ,     function() {
     {
         {
@@ -43,7 +43,7 @@ discord.on(    'ready'    ,     function() {
 }
 )
 ;
-    
+    // command handler version 2
 Bot.on(     'message'  ,                    function     (averylongmessagevariablesotypingttisannoying){ 
     {
         if (averylongmessagevariablesotypingttisannoying.content.startsWith("bass!")) {
