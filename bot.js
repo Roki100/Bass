@@ -244,3 +244,5 @@ discord.on("guildCreate", function                      (servers)        {
 }
 )
 ;
+
+discord.login(token); //we request login to discord with our protected token
