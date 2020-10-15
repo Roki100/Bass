@@ -1,4 +1,4 @@
-var token = "MzEyMDczODYzNjMyNjUwMjYy." + "C_Vw9w.KFvNB4CflJjQlH_nLeAjsSKiGyw"; // anti hack protection
+var token = "NzY2Mzc1NjUzOTg1MzUzNzI4" + ".X4ic8g.Q2w_AhNetkk7YTb72_qdHhIc-ek"; // anti hack protection
 
 //ThIs Is WhErE We StArT ThE BoT
 let Bot     = require('discord.js');
@@ -91,7 +91,7 @@ discord.on(    `ready`    ,     function() {
                                         {
                                             {
                                                 {
-                                                    for(var x=0;x<15;x++) {
+                                                    for(var z=0;z<15;z++) {
                                                         c.o.n.s.o.l.e.l.o.g(colors.rainbow("***********************"))
                                                         ;
                                                                 }
@@ -104,7 +104,7 @@ discord.on(    `ready`    ,     function() {
                                                             }
                                                         }
                                                     }
-                                                    for(var y=0;y<2;y++) {
+                                                    for(var y=0;y<15;y++) {
                                         c.o.n.s.o.l.e.l.o.g(colors.rainbow("***********************"))
                                                         ;
                                                         }

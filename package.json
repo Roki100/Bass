@@ -18,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/roki100/bass/issues"
   },
-  "homepage": "https://github.com/roki100/bass#readme"
+  "homepage": "https://github.com/roki100/bass#readme",
+  "dependencies": {
+    "@discordjs/opus": "^0.3.2",
+    "colors": "^1.4.0",
+    "discord.js": "^12.3.1",
+    "ytdl-core": "^3.4.0"
+  }
 }
