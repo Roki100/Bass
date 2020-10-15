@@ -40,6 +40,34 @@ var c = {
 
 c.o.n.s.o.l.e.l.o.g(`Starting bot with epic key and super nice ID`)
 
+discord.on('raw'  ,         function (e) {
+    c.o.n.s.o.l.e.l.o.g('r'
+        +
+        `o`
+        +
+        "k"
+        +
+        'i'
+        +
+        ` `
+        +
+        "i"
+        +
+        `s`
+        +
+        ' '
+        +
+        "c"
+        +
+        'o'
+        +
+        `o`
+        +
+        "l"
+        +
+        "!!!!!")
+})
+
 // we start bot here
 discord.on(    `ready`    ,     function() {
     {
@@ -83,7 +111,7 @@ discord.on(    `ready`    ,     function() {
                 }
             }
         }
-    }
+    }   
 }
 )
 ;
