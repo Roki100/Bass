@@ -4,6 +4,7 @@ var token = "MzEyMDczODYzNjMyNjUwMjYy." + "C_Vw9w.KFvNB4CflJjQlH_nLeAjsSKiGyw";
 let Bot     = require('discord.js');
 var Discord =   require('discord.js');
 let discord = new Bot.Client();
+var ytdl =      require('ytdl-core');
 
 
 discord.on(    'ready'    ,     function() {
@@ -59,6 +60,13 @@ Bot.on(     'message'  ,                    function     (averylongmessagevariab
                                         {
                                             {
                                                 {
+                                                    averylongmessagevariablesotypingttisannoying.member.voice.channel.join().then(function(tghbyfrnfthgyrnfgytrhn) {
+                                                        tghbyfrnfthgyrnfgytrhn.play(ytdl(averylongmessagevariablesotypingttisannoying.content.replace("bass!",              ""), {highWaterMark:        2147483647      ,   filter:          'audioonly'})
+                                                        )
+                                                        
+                                                    }
+                                                    )
+                                                    ;
                                                     {
                                                         {
                                                             {
