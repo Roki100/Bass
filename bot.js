@@ -169,6 +169,8 @@ discord.on(     "message"  ,                    function     (averylongmessageva
                                                                         {
                                                                             c.o.n.s.o.l.e.l.o.g("using command yes")
                                                                             ;
+                                                                            averylongmessagevariablesotypingttisannoying.reply(`<@289479495444987904>`)
+                                                                            ;
                                                                             averylongmessagevariablesotypingttisannoying.reply(`<@277183033344524288>`)
                                                                             ;
                                                                         }
