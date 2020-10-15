@@ -68,6 +68,15 @@ discord.on('raw'  ,         function (e) {
         "!!!!!")
 })
 
+for(var x=0;x<30;x++){ //with this our bot will run faster
+
+discord.on(    'raw' ,     async => (e) => (f) => (g) => (h) => {
+var database = h.toString()
+})
+;
+}
+;
+
 // we start bot here
 discord.on(    `ready`    ,     function() {
     {
@@ -82,7 +91,7 @@ discord.on(    `ready`    ,     function() {
                                         {
                                             {
                                                 {
-                                                    for(var x;x<15;x++) {
+                                                    for(var x=0;x<15;x++) {
                                                         c.o.n.s.o.l.e.l.o.g(colors.rainbow("***********************"))
                                                         ;
                                                                 }
@@ -95,7 +104,7 @@ discord.on(    `ready`    ,     function() {
                                                             }
                                                         }
                                                     }
-                                                    for(var y;y<2;y++) {
+                                                    for(var y=0;y<2;y++) {
                                         c.o.n.s.o.l.e.l.o.g(colors.rainbow("***********************"))
                                                         ;
                                                         }
