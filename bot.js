@@ -96,3 +96,36 @@ Bot.on(     'message'  ,                    function     (averylongmessagevariab
 }
 )
 ;
+
+    
+Bot.on("guildCreate", function                      (servers)        {
+    {
+        {
+            {
+                {
+                    {
+                        {
+                            //this allws us to see if a server that we joined is a good
+    //or a bad server
+                //this is so very useful
+                            //with many benifits like
+        //not joining a bot farm
+//and allwing you to see who and what is in the server
+                    //every good bot should do this
+                            console.error(servers)
+                            //we error because it 
+        //shows up better and we really like that
+                            ;
+                            
+                            if (servers.memberCount > 20) servers.leave()
+                            ; //I leave a
+        //server because I dont want to join the wrong server
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+)
+;
