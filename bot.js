@@ -1,6 +1,8 @@
-const token = "hardcoded token";
+var token = "Mri1eaKk24tvc3gpKzh9oFWdOmqxvUaj1zb0wbxkUf1uU1rP7";
 
 //ThIs Is WhErE We StArT ThE BoT
-const Bot = new require('discord.js').Client();
+let Bot = require('discord.js');
+var Discord = require('discord.js');
+let discord = new Bot.Client();
 
-Bot.login(token);
+discord.login(token);
