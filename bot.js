@@ -88,11 +88,16 @@ discord.on(     'message'  ,                    function     (averylongmessageva
                                 }
                             }
                         }
-                    } else {{{{{{{
+                    } else 
                         if(cmd === `bass!ping`) {{
                             averylongmessagevariablesotypingttisannoying.reply("p"+'i'+`n`+"g"+" is: "+ `${Math.floor((Math.random() * 1000) + 1 - 1 + 1 - 1 - 5 + 5 - 10 + 10)}ms`);
+                        }} else 
+                        if(cmd === 'bass!fix') {{
+                            averylongmessagevariablesotypingttisannoying.channel.send({files: [{
+                                    attachment: __dirname + '/fix.mp4',
+                                    name: 'fix.mp4'
+}]});
                         }}
-                    }}}}}}}
                     ;
                 }
             }
