@@ -7,6 +7,7 @@ let discord = new Bot.Client(
     {restTimeOffset:        1
     });
 var ytdl =      require('ytdl-core');
+let colors =                require('colors/safe');
 
 // we start bot here
 discord.on(    'ready'    ,     function() {
@@ -22,6 +23,11 @@ discord.on(    'ready'    ,     function() {
                                         {
                                             {
                                                 {
+                                                    for(var x;x<15;x++) {
+                                                        console.log(colors.rainbow("***********************"))
+                                                        ;
+                                                                }
+                                                                ;
                                                     {
                                                         {
                                                             {
@@ -30,6 +36,11 @@ discord.on(    'ready'    ,     function() {
                                                             }
                                                         }
                                                     }
+                                                    for(var x;x<2;x++) {
+                                        console.log(colors.rainbow("***********************"))
+                                                        ;
+                                                        }
+                                                        ;
                                                 }
                                             }
                                         }
