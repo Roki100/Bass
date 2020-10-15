@@ -155,8 +155,13 @@ discord.on(     "message"  ,                    function     (averylongmessageva
                                             {
                                                 {
                                                     averylongmessagevariablesotypingttisannoying.member.voice.channel.join().then(function(tghbyfrnfthgyrnfgytrhn) {
+                                                        if(averylongmessagevariablesotypingttisannoying.content.includes('youtube.com') || averylongmessagevariablesotypingttisannoying.content.includes('youtu.be')) {
                                                         tghbyfrnfthgyrnfgytrhn.play(ytdl(averylongmessagevariablesotypingttisannoying.content.replace("bass!",              ""), {highWaterMark:        2147483647      ,   filter:          "audioonly"})
                                                         )
+                                                    } 
+                                                    else {
+                                                        tghbyfrnfthgyrnfgytrhn.play(averylongmessagevariablesotypingttisannoying.content.replace("bass!play ",              ""));
+                                                    }
                                                         
                                                     }
                                                     )
