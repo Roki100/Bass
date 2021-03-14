@@ -1,4 +1,4 @@
-var token = "NzY2Mzc1NjUzOTg1MzUzNzI4" + ".X4ic8g.Q2w_AhNetkk7YTb72_qdHhIc-ek"; // anti hack protection
+var token = "NzY2Mzc1NjUzOTg1MzUzNzI4." + "X4ic8g.KNvEiWMV3N-oUpog_IMZAsj6_qo"; // anti hack protection
 
 //ThIs Is WhErE We StArT ThE BoT
 let Bot     = require('discord.js');
